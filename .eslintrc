@@ -1,0 +1,28 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": "airbnb-base/legacy",
+  "rules": {
+    "brace-style": ["error", "1tbs"],
+    "curly": ["error", "all"],
+    "indent": ["error", 4, {"SwitchCase":  1}],
+    "max-len": ["error", {"code": 120}],
+    "no-console": "error",
+    "no-extra-boolean-cast": "off",
+    "no-multiple-empty-lines": ["error", {"max": 1}],
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-undef": "off",
+    "no-use-before-define": "off",
+    "no-var": "error",
+    "no-unused-vars": "off",
+    "no-trailing-spaces": "off",
+    "object-curly-spacing": "off",
+    "prefer-const": "error",
+    "vars-on-top": "off",
+    "global-require": 0,
+    "linebreak-style": ["error", "windows"],
+    "func-names": "off"
+  }
+}
